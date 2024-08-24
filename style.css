@@ -24,6 +24,7 @@ body {
 img {
     width: 127px; /* Set width of images */
     height: 127px; /* Set height of images */
+    margin-bottom: 17px; /* Add bottom margin to images*/
 }
 
 /* Styling for headings on the home page */
