@@ -1,0 +1,248 @@
+/* Basic styling for the entire page */
+body {
+    text-align: center; /* Center-align text and elements */
+    font-family: sans-serif; /* Use a sans-serif font for the entire page */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+/* ------------------Home Page----------------- */
+
+/* Container for the home page */
+.home-page {
+    width: 50%; /* Set width to 50% of the parent container */
+    border: 1px solid #000; /* Add a solid black border */
+    border-radius: 8px; /* Round the corners */
+    position: relative; /* Set position relative for absolute positioning of child elements */
+    padding: 37px; /* Add padding inside the container */
+}
+
+/* Styling for images on the home page */
+img {
+    width: 127px; /* Set width of images */
+    height: 127px; /* Set height of images */
+}
+
+/* Styling for headings on the home page */
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: xx-large; /* Set font size to xx-large */
+    color: #b07fdd; /* Set text color */
+}
+
+/* Styling for input field in section 1 of home page */
+.home-page .section-1 #name {
+    width: 80%; /* Set width to 80% of the parent container */
+    text-transform: uppercase; /* Transform text to uppercase */
+    border-radius: 5px; /* Round the corners */
+    padding: 7px; /* Add padding inside the input */
+    opacity: 0.5; /* Set opacity to 0.5 */
+}
+
+/* Styling for buttons on the home page */
+#enter, #pipes, #probability, #age, #profit {
+    padding: 14px 28px; /* Add padding inside buttons */
+    margin-left: 10px; /* Add left margin to buttons */
+    border: 1px solid #000; /* Add a solid black border */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Individual button styles */
+#enter {
+    background-color: #b07fdd; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 8px 28px; /* Add padding inside the input */
+}
+
+#pipes, #probability, #age, #profit {
+    background-color: #f3e7fe; /* Set background color */
+    color: #000; /* Set text color */
+}
+
+/* Hover effects for buttons */
+#enter:hover {
+    background-color: #9b4ce6; /* Change background color on hover */
+}
+
+#pipes:hover, #probability:hover, #age:hover, #profit:hover {
+    background-color: #c698f1; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Styling for options section in home page */
+.section-2 #options {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 30px; /* Add gap between grid items */
+    padding: 40px; /* Add padding inside the section */
+}
+
+/* Styling for heading in section 2 of home page */
+.section-2 h1 {
+    margin-top: 26px; /* Add top margin */
+}
+
+/* -------------------Quiz Page-------------------- */
+
+/* Container for the quiz page */
+.quiz-page {
+    width: 50%; /* Set width to 50% of the parent container */
+    border: 1px solid #000; /* Add a solid black border */
+    border-radius: 8px; /* Round the corners */
+    position: relative; /* Set position relative for absolute positioning of child elements */
+    padding: 37px; /* Add padding inside the container */
+}
+
+/* Styling for category heading in quiz page */
+.quiz-page #category-heading {
+    font-size: xx-large; /* Set font size to xx-large */
+    color: #b07fdd; /* Set text color */
+}
+
+/* Styling for items section in quiz page */
+.quiz-page .items {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically centered */
+}
+
+/* Styling for timer and score in items section */
+.quiz-page .items #timer {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: 1px solid #a65aed; /* Add a solid border */
+    border-radius: 50%; /* Make the timer a circle */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    font-size: x-large; /* Set font size to x-large */
+    color: #a65aed; /* Set text color */
+}
+
+.quiz-page .items #score {
+    font-size: x-large; /* Set font size to x-large */
+}
+
+/* Styling for question number */
+.quiz-page #question-number {
+    position: absolute; /* Position absolutely */
+    right: 373px; /* Position from the right */
+    width: 60px; /* Set width */
+    height: 60px; /* Set height */
+    font-size: x-large; /* Set font size to x-large */
+    border: 1px solid #a65aed; /* Add a solid border */
+    border-radius: 50%; /* Make it a circle */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #a65aed; /* Set text color */
+    background-color: #fff; /* Set background color */
+}
+
+/* Styling for question text */
+.quiz-page #question {
+    border: 1px solid red; /* Add a solid red border */
+    border-radius: 5px; /* Round the corners */
+    margin-top: 37px; /* Add top margin */
+    padding: 33px 15px; /* Add padding inside */
+    font-size: large; /* Set font size to large */
+}
+
+/* Styling for options section in quiz page */
+.quiz-page #options {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 32px; /* Add gap between grid items */
+    padding: 40px; /* Add padding inside the section */
+}
+
+/* Styling for buttons in options section */
+.quiz-page #options button {
+    border: 1px solid #a65aed; /* Add a solid border */
+    padding: 18px 12px; /* Add padding inside buttons */
+    border-radius: 28px; /* Round the corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    list-style-type: none; /* Remove default list styling */
+    font-size: large; /* Set font size to large */
+}
+
+/* Hover effects for buttons in options section */
+.quiz-page #options button:hover {
+    background-color: #a65aed; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Styling for 'next' button */
+.quiz-page #next_btn {
+    border: 1px solid #a65aed; /* Add a solid border */
+    border-radius: 25px; /* Round the corners */
+    padding: 13px 56px; /* Add padding inside button */
+    font-size: large; /* Set font size to large */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Hover effects for 'next' button */
+.quiz-page #next_btn:hover {
+    background-color: #a65aed; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* -------------------Result Page-------------------- */
+
+/* Container for the result page */
+.result-page {
+    width: 50%; /* Set width to 50% of the parent container */
+    border: 1px solid #000; /* Add a solid black border */
+    border-radius: 8px; /* Round the corners */
+    position: relative; /* Set position relative for absolute positioning of child elements */
+    padding: 37px; /* Add padding inside the container */
+}
+
+/* Styling for heading on result page */
+.result-page h1 {
+    margin-bottom: 28px; /* Add bottom margin */
+}
+
+/* Styling for 'Start Again' and 'Go Home' buttons */
+.result-page #start-again, #go-home {
+    border: 1px solid #a65aed; /* Add a solid border */
+    border-radius: 25px; /* Round the corners */
+    padding: 13px 56px; /* Add padding inside buttons */
+    font-size: large; /* Set font size to large */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    margin: 15px; /* Add margin to buttons */
+}
+
+/* Hover effects for 'Start Again' and 'Go Home' buttons */
+.result-page #start-again:hover, #go-home:hover {
+    background-color: #a65aed; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Styling for bold text in result page */
+.result-page span {
+    font-weight: bold; /* Set font weight to bold */
+}
+
+/* Media queries for responsiveness*/
+@media screen and (max-width: 768px) {
+    .home-page, .quiz-page, .result-page {
+        width: 90%; /* Set width to 90% of the parent container on screens smaller than 768px*/
+    }
+
+    .quiz-page #question-number {
+        right: 20px; /* Position from the right on screens smaller than 768px*/
+    }
+
+    .quiz-page #options {
+        grid-template-columns: repeat(1, 1fr); /* Create one column on screens smaller than 768px*/
+    }
+
+    .quiz-page #options button {
+        width: 100%; /* Set width to 100% on screens smaller than 768px*/
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design for mobile devices -->
+    <title>Quiz Result</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <!-- Main container for the result page -->
+    <div class="result-page">
+        <!-- Main heading for the result page -->
+        <h1>Quiz Result</h1>
+        <!-- Display participant's name and result -->
+        <p><span id="participant-name"></span> your result is: <span id="result"></span></p>
+        <!-- Display total time taken -->
+        <p>Total Time Taken: <span id="total-time"></span> seconds</p>
+        <!-- Display total number of questions -->
+        <p>Total Questions: <span id="total-questions"></span></p>
+        <!-- Display number of attempts -->
+        <p>Attempt: <span id="attempted"></span></p>
+        <!-- Display number of correct answers -->
+        <p>Correct: <span id="correct"></span></p>
+        <!-- Display number of wrong answers -->
+        <p>Wrong: <span id="wrong"></span></p>
+        <!-- Display percentage of correct answers -->
+        <p>Percentage: <span id="percentage"></span></p>
+        <!-- Button to restart the quiz -->
+        <button type="button" id="start-again">Start Again</button>
+        <!-- Button to go back to the home page -->
+        <button type="button" id="go-home">Go To Home</button>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

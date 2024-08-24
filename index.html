@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <!-- Main container for the home page -->
+    <div class="home-page">
+        <!-- Section for user name entry -->
+        <section class="section-1">
+            <img src="/Images/logo.png" alt="logo"> <!-- Logo image -->
+            <h1>Hello users!</h1> <!-- Main heading -->
+            <h4>Enter your name to continue the Quiz.</h4> <!-- Subheading -->
+            <input type="text" id="name" placeholder="Enter your name..."> <!-- Input field for user name -->
+            <button type="button" id="enter">Enter</button> <!-- Button to proceed with the entered name -->
+            <p>You'll have 10 seconds to answer each question</p> <!-- Instructions for answering time -->
+        </section>
+        <hr> <!-- Horizontal rule to separate sections -->
+        <!-- Section for selecting quiz categories -->
+        <section class="section-2">
+            <h1>Select Category</h1> <!-- Heading for category selection -->
+            <div id="options">
+                <!-- Buttons for different quiz categories -->
+                <button type="button" class="category-btn" id="pipes">Pipes And Cisterns</button>
+                <button type="button" class="category-btn" id="probability">Probability</button>
+                <button type="button" class="category-btn" id="age">Problem On Ages</button>
+                <button type="button" class="category-btn" id="profit">Profit And Loss</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
