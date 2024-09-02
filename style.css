@@ -131,7 +131,7 @@ h1 {
 /* Styling for question number */
 .quiz-page #question-number {
     position: absolute; /* Position absolutely */
-    right: 373px; /* Position from the right */
+    right: 45%; /* Position from the right */
     width: 60px; /* Set width */
     height: 60px; /* Set height */
     font-size: x-large; /* Set font size to x-large */
@@ -233,10 +233,6 @@ h1 {
 @media screen and (max-width: 768px) {
     .home-page, .quiz-page, .result-page {
         width: 90%; /* Set width to 90% of the parent container on screens smaller than 768px*/
-    }
-
-    .quiz-page #question-number {
-        right: 20px; /* Position from the right on screens smaller than 768px*/
     }
 
     .quiz-page #options {
